@@ -8,9 +8,10 @@
 
 # babel-plugin-transform-block-scope-to-iife
 
-Replaces brackets used as scope in a file by an IIFE.
+Replaces brackets used as scope in a file by an IIFE.   
+This prevents exposing variables in `window` when `const` or `let` are transformed to `var` after transpiling to ES5.
 
-Input:
+**Input:**
 
 ```js
 {
@@ -18,13 +19,13 @@ Input:
 }
 ```
 
-Output: 
+**Output:**
 
 ```js
 (function () {
   const {
     Element
-  } = window.Polymer;
+  } = Polymer;
 })();
 ```
 
