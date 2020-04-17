@@ -17,9 +17,9 @@
     "url": "https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/issues"
   },
   "homepage": "https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife#readme",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
     "test": "jest --coverage"
