@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Babel plugin to transform top level block scope to IIFE",
   "keywords": [
-    "babel",
+    "babel-plugin",
     "transform",
     "iife"
   ],
