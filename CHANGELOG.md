@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/compare/1.1.0...1.1.1) (2020-04-17)
+
+
+### Bug Fixes
+
+* **package:** use correct keyword for babel plugin ([12ece1b](https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/commit/12ece1b09bec97aa2c131d4b19b9d1d742a92321))
+
 # [1.1.0](https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/compare/1.0.0...1.1.0) (2020-04-17)
 
 
