@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/compare/1.1.1...1.1.2) (2020-04-18)
+
+
+### Bug Fixes
+
+* **plugin:** include "use strict" directive inside iife ([98e143f](https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/commit/98e143f6174c24d06820b3c5fc901c54cea9dd32))
+
 ## [1.1.1](https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/compare/1.1.0...1.1.1) (2020-04-17)
 
 
