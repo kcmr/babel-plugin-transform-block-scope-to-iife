@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`babel-plugin-transform-block-scope-to-iife transforms top level block scope by an IIFE 1`] = `
+exports[`transforms top level block scope by an IIFE 1`] = `
 "(function () {
   'use strict';
 

@@ -2,6 +2,10 @@
   "name": "babel-plugin-transform-block-scope-to-iife",
   "version": "1.1.2",
   "description": "Babel plugin to transform top level block scope to IIFE",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "babel-plugin",
     "transform",
@@ -17,24 +21,22 @@
     "url": "https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife/issues"
   },
   "homepage": "https://github.com/kcmr/babel-plugin-transform-block-scope-to-iife#readme",
-  "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:prune": "jest --updateSnapshot"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@semantic-release/changelog": "^5.0.1",
+    "@babel/core": "^7.0.0",
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
-    "commitizen": "^4.0.4",
-    "cz-conventional-changelog": "^3.1.0",
-    "husky": "^4.2.5",
-    "jest": "^25.3.0",
-    "semantic-release": "^17.0.6"
+    "commitizen": "^4.0.0",
+    "cz-conventional-changelog": "^3.0.0",
+    "husky": "^4.0.0",
+    "jest": "^25.0.0",
+    "semantic-release": "^17.0.0"
   },
   "peerDependencies": {
     "@babel/core": ">=7"
@@ -79,5 +81,8 @@
   },
   "engines": {
     "node": ">=10.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
